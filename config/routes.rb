@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
 
+  get 'general_note/index', path: 'admin/general-note'
+
+  get 'dashboard/index', path: 'admin/dashboard'
+
   get 'home/index'
 
   # The priority is based upon order of creation: first created -> highest priority.
