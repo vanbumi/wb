@@ -2,8 +2,8 @@
 <html>
 <head>
   <title>Wb</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => false %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => false %>
   <%= csrf_meta_tags %>
 
 <!-- bootstrap twitter -->
@@ -28,6 +28,8 @@
 	    });
 	</script>
 
+	<script src="//tinymce.cachefly.net/4.2/tinymce.min.js"></script>
+	<script>tinymce.init({selector:'textarea'});</script>
 
 </head>
 
