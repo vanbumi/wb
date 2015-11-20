@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  resources :posts, path: 'admin/posts'
+
   get 'general_note/index', path: 'admin/general-note'
 
   get 'dashboard/index', path: 'admin/dashboard'
