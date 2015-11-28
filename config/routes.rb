@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  devise_for :users
   resources :posts, path: 'admin/posts'
 
   get 'general_note/index', path: 'admin/general-note'
