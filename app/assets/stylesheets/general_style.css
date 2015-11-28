@@ -1,7 +1,17 @@
 
-.row.marketing {
-	padding-top:60px;
+/*home*/
+#rounds-front {
+	padding-top: 60px;
 }
-#post-front {
-	border-bottom: 1px #ccc solid;
+#icon-post {
+	padding-top: 20px;
+	/*background-color: #fff;*/
+}
+#main-container { 
+	margin-top:60px;
+	/*background-color: #eee;*/
+}
+#kolom-right {
+	/*border-left: 1px #888 solid;*/
+	/*background-color: #eee;*/
 }
